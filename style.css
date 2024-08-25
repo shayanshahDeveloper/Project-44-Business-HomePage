@@ -1,0 +1,580 @@
+/*Linkedin Shayan Shah  */
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+navbar-phone {
+  width: 100%;
+  cursor: pointer;
+  padding-bottom: 40px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.256), #a40b0bf0);
+  z-index: 1;
+  position: absolute;
+  top: -300px;
+  transition: all 1s ease-in-out;
+}
+
+navbar-phone #cut {
+  padding: 10px 12px;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  float: right;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+navbar-phone #cut:hover {
+  background-color: transparent;
+  color: black;
+}
+
+navbar-phone #links {
+  justify-content: center;
+  width: 100%;
+}
+
+navbar-phone #links div {
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  border: 1px solid #ff3232;
+}
+
+navbar-phone #links div:hover {
+  background-color: #ff5555;
+  color: white;
+}
+
+#navbar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 140px;
+}
+
+#navbar #links ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+  transition: 0.1s;
+}
+
+#navbar #links ul li:hover {
+  color: #ff5555;
+}
+
+#navbar #links {
+  cursor: pointer;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar #links #home {
+  font-weight: 800;
+  color: #ff5555;
+}
+
+#navbar #download {
+  width: 170px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar #download #dl {
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#navbar #download #menu {
+  background-color: transparent;
+  color: black;
+  padding: 6px 10px;
+  font-size: large;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+#navbar #download #menu:hover {
+  background-color: black;
+  color: white;
+}
+
+#navbar #download #dl:hover {
+  background-color: transparent;
+  color: black;
+}
+
+section1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+section1 #left {
+  width: 660px;
+  height: 90vh;
+  overflow-y: hidden;
+  margin-left: 80px;
+}
+
+section1 #left #strip {
+  width: 400px;
+  margin-left: 40px;
+}
+
+section1 #left #ball1 {
+  width: 400px;
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  margin-left: 40px;
+}
+
+section1 #left #star3 {
+  position: relative;
+  bottom: 260px;
+}
+
+section1 #left h1 {
+  font-size: 60px;
+  font-weight: 900;
+  word-spacing: -9px;
+  letter-spacing: -4px;
+  position: relative;
+  bottom: 270px;
+  margin-left: 40px;
+}
+
+section1 #left p {
+  margin-left: 40px;
+  position: relative;
+  bottom: 270px;
+  color: grey;
+  margin-top: 10px;
+}
+
+section1 #left #strip {
+  margin-top: 20px;
+  position: relative;
+  bottom: 300px;
+  width: 70%;
+}
+
+section1 #left #star8 {
+  position: relative;
+  bottom: 500px;
+  left: 100px;
+}
+
+section1 #left #buttons {
+  margin-left: 40px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 270px;
+  height: 70px;
+  padding: 5px 0px;
+}
+
+section1 #left #buttons #btn1 {
+  background-color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+section1 #left #buttons #btn2 {
+  background-color: transparent;
+  padding: 10px;
+  margin-left: 30px;
+  border: none;
+  cursor: pointer;
+  transition: ease;
+}
+
+section1 #left #buttons #btn2:hover {
+  border: 2px solid black;
+}
+
+section1 #left #buttons #btn1:hover {
+  box-shadow: 5px 5px 5px 17px black;
+}
+
+section1 #right {
+  width: 660px;
+  height: 90vh;
+  overflow-y: hidden;
+}
+
+section1 #right #ball2 {
+  position: relative;
+  top: 300px;
+  scale: -1;
+}
+
+section1 #right #eclipse {
+  position: relative;
+  bottom: 500px;
+  left: 20px;
+}
+
+section1 #right #phone1 {
+  z-index: 3;
+  position: relative;
+  bottom: 1200px;
+  right: 60px;
+}
+
+section1 #right #phone2 {
+  z-index: 2;
+  position: relative;
+  bottom: 1900px;
+  left: 30px;
+}
+
+section1 #right #phone3 {
+  z-index: 1;
+  position: relative;
+  bottom: 2600px;
+  left: 140px;
+}
+
+section1 #right #star1 {
+  position: relative;
+  bottom: 210rem;
+  left: 6rem;
+  scale: -1;
+}
+
+section1 #right #star2 {
+  position: relative;
+  bottom: 175rem;
+  right: 450px;
+}
+
+@media screen and (max-width: 920px) {
+  section1 #left {
+    margin-bottom: 50px;
+  }
+
+  #navbar #links {
+    width: 200px;
+  }
+
+  #navbar #download #menu {
+    display: block;
+  }
+
+  #navbar #links ul {
+    display: none;
+  }
+
+  #navbar {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  section1 #right #eclipse {
+    position: relative;
+    bottom: 500px;
+    left: 50px;
+    width: 600px;
+  }
+
+  section1 #right #phone1 {
+    bottom: 1100px;
+    left: 50px;
+    width: 500px;
+  }
+
+  section1 #right #phone2 {
+    bottom: 1720px;
+    left: 130px;
+    width: 500px;
+  }
+
+  section1 #right #phone3 {
+    bottom: 2330px;
+    left: 230px;
+    width: 400px;
+  }
+
+  section1 #right #star2 {
+    bottom: 155rem;
+    right: 380px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  section1 #left {
+    margin-left: 30px;
+  }
+
+  section1 #left h1 {
+    line-height: 65px;
+    overflow-y: hidden;
+  }
+
+  section1 #left #strip {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  section1 #right {
+    margin-top: 30px;
+  }
+
+  section1 #right #eclipse {
+    position: relative;
+    bottom: 484px;
+    left: 70px;
+    width: 500px;
+  }
+
+  section1 #right #phone1 {
+    bottom: 1000px;
+    left: 50px;
+    width: 400px;
+  }
+
+  section1 #right #phone2 {
+    bottom: 1500px;
+    left: 130px;
+    width: 400px;
+  }
+
+  section1 #right #phone3 {
+    bottom: 1970px;
+    left: 240px;
+    width: 300px;
+  }
+
+  section1 #right #star2 {
+    bottom: 125rem;
+    right: 280px;
+  }
+
+  section1 #right #ball2 {
+    top: 180px;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section1 #left {
+    margin-left: 10px;
+  }
+
+  section1 #left h1 {
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 40px;
+  }
+
+  section1 #right {
+    margin-top: -90px;
+  }
+
+  section1 #right #eclipse {
+    position: relative;
+    bottom: 484px;
+    left: 40px;
+    width: 400px;
+  }
+
+  section1 #right #phone1 {
+    bottom: 900px;
+    left: 10px;
+  }
+
+  section1 #right #phone2 {
+    bottom: 1400px;
+    left: 70px;
+  }
+
+  section1 #right #phone3 {
+    bottom: 1880px;
+    left: 150px;
+  }
+
+  section1 #right #star2 {
+    bottom: 122rem;
+    right: 280px;
+  }
+
+  section1 #right #ball2 {
+    top: 150px;
+    left: -50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section1 #left {
+    margin-left: -10px;
+  }
+
+  section1 #left h1 {
+    font-size: 35px;
+    bottom: 290px;
+  }
+
+  section #left #ball1 {
+    bottom: 90px;
+    left: 10px;
+  }
+
+  section1 #left #star3 {
+    position: relative;
+    bottom: 280px;
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  section1 #left h1 {
+    font-size: 32px;
+    bottom: 310px;
+    letter-spacing: 0px;
+    word-spacing: -5px;
+  }
+
+  section1 #left #ball1 {
+    bottom: 70px;
+    left: -100px;
+  }
+
+  section1 #left #buttons {
+    padding: 5px 0px;
+  }
+
+  section1 #left #buttons #btn1 {
+    padding: 6px;
+  }
+
+  section1 #left #buttons #btn1:hover {
+    box-shadow: 5px 5px 12px black;
+  }
+
+  section1 #left #buttons #btn2 {
+    padding: 6px;
+    margin-left: 10px;
+  }
+
+  section1 #left #star8 {
+    bottom: 480px;
+  }
+
+  section1 #right {
+    margin-top: -170px;
+  }
+
+  section1 #right #eclipse {
+    position: relative;
+    bottom: 370px;
+    left: -10px;
+    width: 390px;
+  }
+
+  section1 #right #phone1 {
+    bottom: 800px;
+    left: -25px;
+  }
+
+  section1 #right #phone2 {
+    bottom: 1300px;
+    left: 20px;
+  }
+
+  section1 #right #phone3 {
+    bottom: 1780px;
+    left: 90px;
+  }
+
+  section1 #right #ball2 {
+    top: 250px;
+    left: -80px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  section1 #left #buttons {
+    height: 120px;
+  }
+
+  section1 #left #buttons #btn1:hover {
+    box-shadow: 5px 5px 12px black;
+  }
+
+  section1 #left #buttons #btn2 {
+    padding: 6px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  section1 #left #star8 {
+    bottom: 270px;
+    left: 60px;
+    width: 30px;
+  }
+
+  section1 #left #strip {
+    width: 280px;
+    bottom: 350px;
+  }
+
+  #navbar #download #dl {
+    padding: 10px;
+  }
+
+  #navbar #download #menu {
+    padding: 6px 8px;
+    font-size: medium;
+  }
+
+  section1 #right {
+    margin-top: -140px;
+  }
+
+  section1 #right #eclipse {
+    position: relative;
+    bottom: 370px;
+    left: -10px;
+    width: 300px;
+  }
+
+  section1 #right #phone1 {
+    bottom: 700px;
+    left: -25px;
+    width: 300px;
+  }
+
+  section1 #right #phone2 {
+    bottom: 1070px;
+    left: 10px;
+    width: 300px;
+  }
+
+  section1 #right #phone3 {
+    bottom: 1450px;
+    left: 50px;
+    width: 250px;
+  }
+
+  section1 #right #ball2 {
+    top: 170px;
+    left: -120px;
+  }
+}

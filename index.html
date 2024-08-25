@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shayan Shah | Business HomePage</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <navbar-phone id="nav-phone">
+      <button type="button" onclick="cutNavbar()" id="cut">X</button>
+      <div id="links">
+        <div id="home">Home</div>
+        <div>AboutUs</div>
+        <div>Pricing</div>
+        <div>Features</div>
+      </div>
+    </navbar-phone>
+
+    <navbar id="navbar" data-aos="fade-down">
+      <div id="links">
+        <img src="./assets/Grouplogo.png" alt="logo" />
+        <ul>
+          <li id="home">Home</li>
+          <li>AboutUs</li>
+          <li>Pricing</li>
+          <li>Features</li>
+        </ul>
+      </div>
+      <div id="download">
+        <button id="dl">Download</button>
+        <button type="button" onclick="handleNavbar()" id="menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </navbar>
+
+    <section1>
+      <div id="left" data-aos="fade-right">
+        <img id="star3" src="./assets/Star 3.png" alt="" />
+        <img
+          id="ball1"
+          src="./assets/Group 35896.png"
+          alt=""
+          data-aos="zoom-in"
+        />
+        <h1 data-aos="fade-down">
+          Make The Best <br />
+          Financial Decisions
+        </h1>
+        <p>
+          Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
+          faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
+        </p>
+        <div id="buttons">
+          <button id="btn1"><img src="./assets/Group 1.png" alt="" /></button>
+          <button id="btn2"><img src="/assets/Group 4.png" alt="" /></button>
+        </div>
+        <img id="star8" src="./assets/Star 4.png" alt="" />
+        <img
+          id="strip"
+          src="./assets/Group 35924.png"
+          alt=""
+          data-aos="flip-up"
+        />
+      </div>
+
+      <div id="right">
+        <img
+          id="ball2"
+          src="./assets/Group 35896.png"
+          alt=""
+          data-aos="zoom-in"
+        />
+        <img
+          id="eclipse"
+          src="./assets/Group 35887.png"
+          alt=""
+          data-aos="zoom-in"
+        />
+        <img
+          id="phone1"
+          src="./assets/iPhone-13-Pro-Front.png"
+          alt=""
+          data-aos="fade-up"
+        />
+        <img
+          id="phone2"
+          src="./assets/iPhone-13-Pro-Front (1).png"
+          alt=""
+          data-aos="fade-down"
+        />
+        <img
+          id="phone3"
+          src="./assets/iPhone-13-Pro-Front (2).png"
+          alt=""
+          data-aos="fade-up"
+        />
+        <img id="star1" src="./assets/Star 1.png" alt="" data-aos="flip-up" />
+        <img id="star2" src="./assets/Star 2.png" alt="" />
+      </div>
+    </section1>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
